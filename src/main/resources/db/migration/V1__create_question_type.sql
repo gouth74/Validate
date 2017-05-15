@@ -1,0 +1,7 @@
+CREATE TABLE question_type
+(
+  Id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  Question_Type VARCHAR(50) NOT NULL,
+  Is_Active BOOLEAN DEFAULT TRUE
+  );
+  
